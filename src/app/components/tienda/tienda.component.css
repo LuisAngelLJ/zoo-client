@@ -1,0 +1,40 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: violet;
+}
+
+.boton_transiciones {
+    display: inline-block;
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid orange;
+    text-decoration: none;
+    transition: all 1s ease;
+    margin-bottom: 20px;
+}
+
+.boton_transiciones:hover {
+    cursor: pointer;
+    background: #ccc;
+    color: black;
+}
+
+.caja-animada {
+    background: green;
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    animation-name: deslizamiento;
+    animation-duration: 10s;
+}
+
+@keyframes deslizamiento {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(300px);
+    }
+}

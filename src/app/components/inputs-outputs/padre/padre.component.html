@@ -1,0 +1,12 @@
+<div [@fadeIn]>
+    <p>padre works!</p>
+    <input type="text" [(ngModel)]="nombrePadre" (keyup)="mostrarNombre">
+    <p>Lista de novias desde el hijo:</p>
+    <!--Si no pongo el if marca error porque aún no esta lleno hijo-->
+    <ul *ngIf="hijo">
+        <li>{{hijo.noviaUno}}</li>
+        <li>{{hijo.noviaDos}}</li>
+        <li>{{hijo.noviaTres}}</li>
+    </ul>
+    <hijo [nombrePadre]="nombrePadre" (enviarValor)="getHijo($event)"></hijo>
+</div>

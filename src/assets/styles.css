@@ -1,0 +1,12 @@
+.navigation.col-lg-12 {
+    margin-top: 15px;
+}
+
+.jumbotron {
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+}
+
+.resaltado {
+    border-bottom: 3px solid orange;
+}

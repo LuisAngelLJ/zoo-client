@@ -1,0 +1,17 @@
+<div [@fadeIn]>
+    <h1>Tienda</h1>
+
+    <button id="botonjq" class="btn btn-warning mb-3">Texto</button>
+    <p id="textojq" class="hidden alert alert-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quis quo molestiae! Minima quasi cumque ratione cum et aut soluta vel repellendus vero architecto nobis provident porro itaque, asperiores maxime.</p>
+
+    <div id="caja" style="border: 2px solid black; width: 400px; height: 50px;">Veniam quis quo molestiae! Minima quasi cumque ratione cum et aut soluta vel repellendus vero architecto nobis provident porro itaque, asperiores maxime.</div>
+
+    <hr>
+    <h3>Transiciones</h3>
+    <a class="boton_transiciones">Transiciones</a>
+
+    <div class="caja-animada"></div>
+
+    <h3>Animaciones con estado</h3>
+    <a class="boton_activo btn btn-success" [@marcar]="state" (click)="cambiarEstado(state)">Activar boton</a>
+</div>

@@ -1,0 +1,30 @@
+.col-lg-4 {
+    float: left;
+    padding: 0 15px;
+}
+
+.col-lg-8 {
+    float: right;
+    padding: 0 15px;
+}
+
+.active {
+    background-color: blue;
+    color: white;
+}
+
+.sidebar-admin .nav {
+    width: 100%;
+}
+
+.sidebar-admin .nav li {
+    width: 100%;
+}
+
+.sidebar-admin .nav li a{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    text-decoration: none;
+}
